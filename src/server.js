@@ -1,3 +1,8 @@
+// This file don't have DB connection. 
+// It uses array based memory, so whenever the server gets restarts, 
+// the array will be an empty array. 
+// So the data is not permanently stored.
+
 const express = require("express");
 
 const app = express();

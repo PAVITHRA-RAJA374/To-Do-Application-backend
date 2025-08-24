@@ -1,3 +1,7 @@
+// This file is with DB connection
+
+require("dotenv").config();
+
 const express = require("express");
 const pool = require("./db");
 
